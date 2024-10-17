@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffe6f2; /* Fundo suave */
+}
+header {
+    background-color: #ff66b2; /* Cabeçalho rosa */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo no header */
+    align-items: center; /* Alinha verticalmente */
+}
+
+/* Logo container */
+.logo {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+}
+
+.logo img {
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+.logo h1 {
+    margin: 0; /* Remove a margem do título */
+    font-size: 1.8rem; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.logo{
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+.sidebar {
+    width: 200px;
+    background-color: #ffccf2; /* Menu lateral rosa claro */
+    padding: 20px;
+    border-right: 1px solid #ff99cc; /* Borda rosa */
+}
+.sidebar a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #d5006d; /* Cor dos links */
+    font-weight: bold;
+}
+.sidebar a:hover {
+    background-color: #ff99cc; /* Cor ao passar o mouse */
+}
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
+.textbox {
+    border: 1px solid #ff66b2; /* Borda da caixa de texto */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #fff; /* Fundo branco para contraste */
+}
+footer {
+    background-color: #ce1f79; /* Rodapé rosa escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
